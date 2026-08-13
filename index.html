@@ -10,6 +10,7 @@
 </head>
 <body>
 
+  
   <header class="navbar">
     <div class="container navbar-container">
       <a href="index.html" class="logo">
@@ -39,7 +40,7 @@
     </div>
   </header>
 
-
+  
   <section class="hero">
     <div class="container hero-grid">
       <div class="hero-content">
@@ -56,6 +57,7 @@
     </div>
   </section>
 
+  
   <section class="section search-section" id="search">
     <div class="container">
       <div class="search-box">
@@ -87,140 +89,8 @@
       </div>
     </div>
   </section>
-
-  <section class="section section-alt" id="routes">
-    <div class="container">
-      <div class="section-header">
-        <h2>Popular Bus Routes</h2>
-        <p>Explore high-frequency city routes connecting major hubs and transit centers.</p>
-      </div>
-      <div class="routes-grid">
-        
-        <div class="route-card">
-          <div class="route-header">
-            <span class="route-number">Route 201</span>
-            <span class="route-freq">Every 15 Minutes</span>
-          </div>
-          <div class="route-path">
-            <div class="route-point">
-              <div class="city">City Center</div>
-            </div>
-            <div class="route-arrow">↓</div>
-            <div class="route-point">
-              <div class="city">Airport</div>
-            </div>
-          </div>
-          <div class="route-footer">
-            <span class="route-info">12 Intermediate Stops</span>
-            <button class="btn btn-secondary btn-sm" onclick="openBusModal('201')">View Details</button>
-          </div>
-        </div>
-
-        <div class="route-card">
-          <div class="route-header">
-            <span class="route-number">Route 115</span>
-            <span class="route-freq">Every 20 Minutes</span>
-          </div>
-          <div class="route-path">
-            <div class="route-point">
-              <div class="city">Railway</div>
-            </div>
-            <div class="route-arrow">↓</div>
-            <div class="route-point">
-              <div class="city">Mall</div>
-            </div>
-          </div>
-          <div class="route-footer">
-            <span class="route-info">10 Intermediate Stops</span>
-            <button class="btn btn-secondary btn-sm" onclick="openBusModal('115')">View Details</button>
-          </div>
-        </div>
-
-        <div class="route-card">
-          <div class="route-header">
-            <span class="route-number">Route 78</span>
-            <span class="route-freq">Every 10 Minutes</span>
-          </div>
-          <div class="route-path">
-            <div class="route-point">
-              <div class="city">University</div>
-            </div>
-            <div class="route-arrow">↓</div>
-            <div class="route-point">
-              <div class="city">Station</div>
-            </div>
-          </div>
-          <div class="route-footer">
-            <span class="route-info">8 Intermediate Stops</span>
-            <button class="btn btn-secondary btn-sm" onclick="openBusModal('78')">View Details</button>
-          </div>
-        </div>
-
-        <div class="route-card">
-          <div class="route-header">
-            <span class="route-number">Route 42</span>
-            <span class="route-freq">Every 30 Minutes</span>
-          </div>
-          <div class="route-path">
-            <div class="route-point">
-              <div class="city">Airport</div>
-            </div>
-            <div class="route-arrow">↓</div>
-            <div class="route-point">
-              <div class="city">Hospital</div>
-            </div>
-          </div>
-          <div class="route-footer">
-            <span class="route-info">14 Intermediate Stops</span>
-            <button class="btn btn-secondary btn-sm" onclick="openBusModal('42')">View Details</button>
-          </div>
-        </div>
-
-        <div class="route-card">
-          <div class="route-header">
-            <span class="route-number">Route 305</span>
-            <span class="route-freq">Every 15 Minutes</span>
-          </div>
-          <div class="route-path">
-            <div class="route-point">
-              <div class="city">Downtown</div>
-            </div>
-            <div class="route-arrow">↓</div>
-            <div class="route-point">
-              <div class="city">West End</div>
-            </div>
-          </div>
-          <div class="route-footer">
-            <span class="route-info">11 Intermediate Stops</span>
-            <button class="btn btn-secondary btn-sm" onclick="openBusModal('305')">View Details</button>
-          </div>
-        </div>
-
-        <div class="route-card">
-          <div class="route-header">
-            <span class="route-number">Route 88</span>
-            <span class="route-freq">Every 25 Minutes</span>
-          </div>
-          <div class="route-path">
-            <div class="route-point">
-              <div class="city">North Gate</div>
-            </div>
-            <div class="route-arrow">↓</div>
-            <div class="route-point">
-              <div class="city">South Hub</div>
-            </div>
-          </div>
-          <div class="route-footer">
-            <span class="route-info">15 Intermediate Stops</span>
-            <button class="btn btn-secondary btn-sm" onclick="openBusModal('88')">View Details</button>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <section class="section" id="status">
+  
+  <section class="section section-alt" id="status">
     <div class="container">
       <div class="section-header" style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; text-align: left;">
         <div>
@@ -245,14 +115,153 @@
               <th>Action</th>
             </tr>
           </thead>
-          <tbody id="liveBusStatusBody" id="searchResultsContainer">
-            <!-- Populated dynamically via script.js -->
+          <tbody id="liveBusStatusBody">
+            
           </tbody>
         </table>
       </div>
     </div>
   </section>
 
+  <section class="section" id="routes">
+    <div class="container">
+      <div class="section-header">
+        <h2>Popular Bus Routes</h2>
+        <p>Explore high-frequency city routes connecting major hubs and transit centers.</p>
+      </div>
+      <div class="routes-grid">
+        
+        
+        <div class="route-card">
+          <div class="route-header">
+            <span class="route-number">Route 201</span>
+            <span class="route-freq">Every 15 Minutes</span>
+          </div>
+          <div class="route-path">
+            <div class="route-point">
+              <div class="city">City Center</div>
+            </div>
+            <div class="route-arrow">↓</div>
+            <div class="route-point">
+              <div class="city">Airport</div>
+            </div>
+          </div>
+          <div class="route-footer">
+            <span class="route-info">12 Intermediate Stops</span>
+            <button class="btn btn-secondary btn-sm" onclick="openBusModal('201')">View Details</button>
+          </div>
+        </div>
+
+        
+        <div class="route-card">
+          <div class="route-header">
+            <span class="route-number">Route 115</span>
+            <span class="route-freq">Every 20 Minutes</span>
+          </div>
+          <div class="route-path">
+            <div class="route-point">
+              <div class="city">Railway</div>
+            </div>
+            <div class="route-arrow">↓</div>
+            <div class="route-point">
+              <div class="city">Mall</div>
+            </div>
+          </div>
+          <div class="route-footer">
+            <span class="route-info">10 Intermediate Stops</span>
+            <button class="btn btn-secondary btn-sm" onclick="openBusModal('115')">View Details</button>
+          </div>
+        </div>
+
+        
+        <div class="route-card">
+          <div class="route-header">
+            <span class="route-number">Route 78</span>
+            <span class="route-freq">Every 10 Minutes</span>
+          </div>
+          <div class="route-path">
+            <div class="route-point">
+              <div class="city">University</div>
+            </div>
+            <div class="route-arrow">↓</div>
+            <div class="route-point">
+              <div class="city">Station</div>
+            </div>
+          </div>
+          <div class="route-footer">
+            <span class="route-info">8 Intermediate Stops</span>
+            <button class="btn btn-secondary btn-sm" onclick="openBusModal('78')">View Details</button>
+          </div>
+        </div>
+
+        
+        <div class="route-card">
+          <div class="route-header">
+            <span class="route-number">Route 42</span>
+            <span class="route-freq">Every 30 Minutes</span>
+          </div>
+          <div class="route-path">
+            <div class="route-point">
+              <div class="city">Airport</div>
+            </div>
+            <div class="route-arrow">↓</div>
+            <div class="route-point">
+              <div class="city">Hospital</div>
+            </div>
+          </div>
+          <div class="route-footer">
+            <span class="route-info">14 Intermediate Stops</span>
+            <button class="btn btn-secondary btn-sm" onclick="openBusModal('42')">View Details</button>
+          </div>
+        </div>
+
+        
+        <div class="route-card">
+          <div class="route-header">
+            <span class="route-number">Route 305</span>
+            <span class="route-freq">Every 15 Minutes</span>
+          </div>
+          <div class="route-path">
+            <div class="route-point">
+              <div class="city">Downtown</div>
+            </div>
+            <div class="route-arrow">↓</div>
+            <div class="route-point">
+              <div class="city">West End</div>
+            </div>
+          </div>
+          <div class="route-footer">
+            <span class="route-info">11 Intermediate Stops</span>
+            <button class="btn btn-secondary btn-sm" onclick="openBusModal('305')">View Details</button>
+          </div>
+        </div>
+
+        
+        <div class="route-card">
+          <div class="route-header">
+            <span class="route-number">Route 88</span>
+            <span class="route-freq">Every 25 Minutes</span>
+          </div>
+          <div class="route-path">
+            <div class="route-point">
+              <div class="city">North Gate</div>
+            </div>
+            <div class="route-arrow">↓</div>
+            <div class="route-point">
+              <div class="city">South Hub</div>
+            </div>
+          </div>
+          <div class="route-footer">
+            <span class="route-info">15 Intermediate Stops</span>
+            <button class="btn btn-secondary btn-sm" onclick="openBusModal('88')">View Details</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  
   <section class="section section-alt" id="schedule">
     <div class="container">
       <div class="section-header">
@@ -272,13 +281,14 @@
             </tr>
           </thead>
           <tbody id="busScheduleBody">
-            <!-- Populated dynamically via script.js -->
+            
           </tbody>
         </table>
       </div>
     </div>
   </section>
 
+  
   <section class="section" id="features">
     <div class="container">
       <div class="section-header">
@@ -330,6 +340,7 @@
     </div>
   </section>
 
+  
   <section class="section section-alt" id="faq">
     <div class="container">
       <div class="section-header">
@@ -381,6 +392,7 @@
     </div>
   </section>
 
+  
   <div class="modal-overlay" id="busModalOverlay">
     <div class="modal-content">
       <div class="modal-header">
@@ -388,7 +400,7 @@
         <button class="modal-close" id="busModalClose">&times;</button>
       </div>
       <div class="modal-body" id="modalBusBody">
-        <!-- Content inserted dynamically via modal.js -->
+        
       </div>
       <div class="modal-footer">
         <button class="btn btn-secondary" id="busModalFooterClose">Close</button>
@@ -396,6 +408,7 @@
     </div>
   </div>
 
+  
   <footer class="footer">
     <div class="container">
       <div class="footer-grid">
@@ -432,8 +445,8 @@
 
         <div class="footer-col">
           <h4>Contact & Support</h4>
-          <p><strong>Email:</strong> sanpuinilambar@gmail.com</p>
-          <p><strong>Phone:</strong> +91 8420892876</p>
+          <p><strong>Email:</strong> eshaPramanik12@gmail.com</p>
+          <p><strong>Phone:</strong> +918927477***</p>
           <p><strong>Hours:</strong> Mon - Sun: 6:00 AM - 11:00 PM</p>
         </div>
       </div>
@@ -445,6 +458,7 @@
     </div>
   </footer>
 
+  
   <script src="js/script.js"></script>
   <script src="js/search.js"></script>
   <script src="js/modal.js"></script>
